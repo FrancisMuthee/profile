@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Muthee</title>
+    <link rel = "stylesheet" href="styles/index.css">
+
+</head>
+<body>
+    <div class="nav-toggle">
+        <button onclick="toggleNav()">☰</button>
+    </div>
+    
+      <div class="nav" id="myNav">
+        <h2>Francis Muthee</h2>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="book.html">Bookshelf</a>
+        <a href="aoi.html">Areas of Interest</a>
+        <a href="cert.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    <ul>
+        <h4>NUSSA</h4>
+        <li>Data Analysis in Competence in R & Excel</li>
+    </ul>
+    <ul>
+        <h4>Power Learn Project</h4>
+        <li>Software Development</li>
+    </ul>
+    <ul>
+        <h4>GMI</h4>
+        <li>Global Mentorship Program</li> <a href="files/Francis Njaramba.pdf" target="_blank">Click here to view certificate</a>
+    </ul>
+    <ul>
+        <h4>AIESEC</h4>
+        <li>Investor Education</li> <a href="files/Investor Certificate.pdf" target="_blank">Click here to view certificate</a>
+    </ul>
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("myNav");
+            if (nav.style.display === "block") {
+                nav.style.display = "none";
+            } else {
+                nav.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

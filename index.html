@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francis Muthee</title>
+  <link rel = "stylesheet" href="styles/index.css">
+</head>
+<body>
+
+  <div class="nav-toggle">
+    <button onclick="toggleNav()">☰</button>
+</div>
+
+  <div class="nav" id="myNav">
+    <h2>Francis Muthee</h2>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="book.html">Bookshelf</a>
+    <a href="aoi.html">Areas of Interest</a>
+    <a href="cert.html">Certifications</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  
+  <script>
+    function toggleNav() {
+        var nav = document.getElementById("myNav");
+        if (nav.style.display === "block") {
+            nav.style.display = "none";
+        } else {
+            nav.style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>
