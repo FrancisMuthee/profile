@@ -1,7 +1,6 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+.photoi img {
+    height: 450px;
+    width: auto;
 }
 
 .nav {
@@ -78,3 +77,4 @@ body {
         margin-right: 0; /* Removes the right margin when the nav is hidden */
     }
 }
+
